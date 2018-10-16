@@ -1,5 +1,6 @@
 package one;
-import java.sql.SQLOutput;
+
+
 import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -10,6 +11,7 @@ public class Numbers {
             Scanner scan = new Scanner(System.in);
             ArrayList<Integer> lista = new ArrayList<>();
 
+            System.out.println("Podaj liczbę");
             int number = 0;
             do {
 
